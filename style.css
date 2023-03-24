@@ -18,10 +18,14 @@
 }
 
 .icons{
-  border-style: dotted;
-  display: block;
+  border-style: dashed;
+  position: relative;
+  max-width: 30%;
+  margin: 0 auto;
 }
 
 .icons img{
-  position: fixed;
+  position: absolute;
+  display: flex;
+  align-items: center;
 }
