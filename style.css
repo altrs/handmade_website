@@ -18,14 +18,17 @@
 }
 
 .icons{
-  border-style: dashed;
   position: relative;
-  max-width: 30%;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
 }
 
 .icons img{
   position: absolute;
-  display: flex;
-  align-items: center;
+  width: 7%;
+}
+
+.icons img:hover{
+  rotate: 30deg;
 }
