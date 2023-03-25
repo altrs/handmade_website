@@ -32,3 +32,56 @@
 .icons img:hover{
   rotate: 30deg;
 }
+
+.dropdown1{
+  position: absolute;
+  border-style: dotted;
+  line-height: 150%;
+  z-index: 10;
+}
+.dropdown1:hover {
+    background: url(assets/teeth/teeth5.gif);
+    background-size: 100px;
+}
+
+
+.dropdown2{
+  position: absolute;
+  border-style: dotted;
+  line-height: 150%;
+  z-index: 10;
+  background: url(assets/teeth/teeth1.gif);
+}
+.dropdown2:hover {
+    background: url(assets/teeth/teeth3.gif);
+}
+
+
+.dropdown3{
+  position: absolute;
+  border-style: dotted;
+  line-height: 150%;
+  z-index: 10;
+  background: url(assets/teeth/teeth6.gif);
+}
+.dropdown3:hover {
+    background: none;
+}
+
+.dropdown4{
+  position: absolute;
+  border-style: dotted;
+  line-height: 150%;
+  z-index: 10;
+  background: url(assets/teeth/teeth3.gif);
+}
+.dropdown4:hover {
+    background: url(assets/teeth/teeth2.gif);;
+}
+
+
+
+
+
+
+
