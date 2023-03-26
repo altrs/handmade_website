@@ -148,16 +148,56 @@ label.toggle {
   margin-left: 35.2%;
 }
 
-.grid1:hover{
-  border-style: solid;
+.grid1{
+  background: url(assets/intestines/img1.jpg);
   cursor: url(assets/intestines/1.png),crosshair;
+  border-style: solid;
+  padding-top:25%;
+  width:49%;
+}
+.grid1:hover{
+  cursor: url(assets/intestines/1.png),crosshair;
+  transform: scale(0.3);
+}
+
+.grid2{
+  background: url(assets/intestines/img2.jpg);
+  cursor: url(assets/intestines/2.png),crosshair;
+  border-style: solid;
+  padding-top:25%;
+  width:50%
 }
 .grid2:hover{
-  cursor: url(assets/intestines/2.png),vertical-text;
+  cursor: url(assets/intestines/2.png),crosshair;
+  transform: scale(0.3);
+}
+
+.grid3{
+  background: url(assets/intestines/img3.jpg);
+  cursor: url(assets/intestines/3.png),crosshair;
+  border-style: solid;
+  padding-top:25%;
+  width:49%
 }
 .grid3:hover{
-  cursor: url(assets/intestines/3.png),auto;
+  cursor: url(assets/intestines/3.png),crosshair;
+  transform: scale(0.5);
+}
+
+.grid4{
+  background: url(assets/intestines/img4.jpg);
+  cursor: url(assets/intestines/4.png),crosshair;
+  border-style: solid;
+  padding-top:25%;
+  width:50%
 }
 .grid4:hover{
-  cursor: url(assets/intestines/4.png),auto;
+  cursor: url(assets/intestines/4.png),crosshair;
+  transform: scale(0.3);
 }
+
+
+
+
+
+
