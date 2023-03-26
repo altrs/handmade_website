@@ -147,3 +147,17 @@ label.toggle {
   user-select: none;
   margin-left: 35.2%;
 }
+
+.grid1:hover{
+  border-style: solid;
+  cursor: url(assets/intestines/1.png),crosshair;
+}
+.grid2:hover{
+  cursor: url(assets/intestines/2.png),vertical-text;
+}
+.grid3:hover{
+  cursor: url(assets/intestines/3.png),auto;
+}
+.grid4:hover{
+  cursor: url(assets/intestines/4.png),auto;
+}
