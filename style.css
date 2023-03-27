@@ -150,50 +150,155 @@ label.toggle {
 
 .grid1{
   background: url(assets/intestines/img1.jpg);
-  cursor: url(assets/intestines/1.png),crosshair;
+  cursor: url(assets/intestines/1.png),none;
   border-style: solid;
   padding-top:25%;
   width:49%;
 }
 .grid1:hover{
-  cursor: url(assets/intestines/1.png),crosshair;
+  cursor: url(assets/intestines/1.png),none;
   transform: scale(0.3);
 }
 
 .grid2{
   background: url(assets/intestines/img2.jpg);
-  cursor: url(assets/intestines/2.png),crosshair;
+  cursor: url(assets/intestines/2.png), none;
   border-style: solid;
   padding-top:25%;
   width:50%
 }
 .grid2:hover{
-  cursor: url(assets/intestines/2.png),crosshair;
+  cursor: url(assets/intestines/2.png),none;
   transform: scale(0.3);
 }
 
 .grid3{
   background: url(assets/intestines/img3.jpg);
-  cursor: url(assets/intestines/3.png),crosshair;
+  cursor: url(assets/intestines/3.png),none;
   border-style: solid;
   padding-top:25%;
   width:49%
 }
 .grid3:hover{
-  cursor: url(assets/intestines/3.png),crosshair;
+  cursor: url(assets/intestines/3.png),none;
   transform: scale(0.5);
 }
 
 .grid4{
   background: url(assets/intestines/img4.jpg);
-  cursor: url(assets/intestines/4.png),crosshair;
+  cursor: url(assets/intestines/4.png),none;
   border-style: solid;
   padding-top:25%;
   width:50%
 }
 .grid4:hover{
-  cursor: url(assets/intestines/4.png),crosshair;
+  cursor: url(assets/intestines/4.png),none;
   transform: scale(0.3);
+}
+
+
+.iconseye{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.iconseye img{
+  position: absolute;
+  width: 7%;
+}
+
+.iconseye img:hover{
+  rotate: 30deg;
+}
+
+.bgeye {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 50%; 
+  height: 50%;
+}
+
+.bgeye img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.twop{
+  display: none;
+}
+.two:hover + .twop {
+  display: block;
+  color: red;
+}
+
+.threep{
+  display: none;
+}
+.three:hover + .threep {
+  display: block;
+  color: red;
+}
+
+.fourp{
+  display: none;
+}
+.four:hover + .fourp {
+  display: block;
+  color: red;
+}
+
+.fivep{
+  display: none;
+}
+.five:hover + .fivep {
+  display: block;
+  color: red;
+}
+
+.sixp{
+  display: none;
+}
+.six:hover + .sixp {
+  display: block;
+  color: red;
+}
+
+.foot1{
+  padding-top:25%;
+  width:49%;
+}
+
+.foot2{
+  padding-top:25%;
+  width:49%;
+}
+
+.bg1 {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+.bg1 img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 30%;
+  min-height: 30%;
 }
 
 
